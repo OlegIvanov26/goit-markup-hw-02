@@ -1,5 +1,5 @@
-* {
-  font-family: "Roboto", sans-serif;
+:root {
+  --address-footer: #2f303a;
 }
 .color-web {
   font-family: "Raleway";
@@ -105,7 +105,7 @@ nav a {
   background-color: #2f303a;
 }
 footer {
-  background-color: #2f303a;
+  background-color: #2f303a);
 }
 footer p {
   font-style: normal;
