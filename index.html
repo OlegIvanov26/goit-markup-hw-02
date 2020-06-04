@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Web Studio</title>
   </head>
 
   <body>
     <header>
       <section>
-        <h1>Web Studio</h1>
+        <h1>
+          <span class="color-web">Web</span>
+          <span class="color-studio">Studio</span>
+        </h1>
         <nav>
           <ul>
             <li><a href="#">Студия</a></li>
@@ -30,11 +34,11 @@
       </section>
     </header>
     <main>
-      <section>
-        <h2>эффективные решения для вашего бизнеса</h2>
+      <section class="banner">
+        <h2 class="banner-title">эффективные решения для вашего бизнеса</h2>
         <a href="#">Заказать услугу</a>
       </section>
-      <section>
+      <section class="advantages">
         <ul>
           <li>
             <img src="images/antenna_1.svg" alt="antenna" />
@@ -70,30 +74,30 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="portfolio">
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="images/img.jpg" alt="notepad" />
-            <a href="#">Десктопные приложения</a>
+            <h3>Десктопные приложения</h3>
           </li>
           <li>
             <img src="images/box.jpg" alt="mobile image" />
-            <a href="#">Мобильные приложения</a>
+            <h3>Мобильные приложения</h3>
           </li>
           <li>
             <img src="images/img_2.jpg" alt="" />
-            <a href="#">Дизайнерские решения</a>
+            <h3>Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="team">
         <h2>Наша команда</h2>
         <ul>
           <li>
             <img src="images/john_smith.jpg" alt="Product Designer photo" />
-            <p>John Smith</p>
-            <p>Product Designer</p>
+            <p class="name-item">John Smith</p>
+            <p class="specialty">Product Designer</p>
             <ul>
               <li>
                 <a href=""
@@ -122,8 +126,8 @@
               src="images/marta_stewart.jpg"
               alt="Frontend Developer photo"
             />
-            <p>Marta Stewart</p>
-            <p>Frontend Developer</p>
+            <p class="name-item">Marta Stewart</p>
+            <p class="specialty">Frontend Developer</p>
             <ul>
               <li>
                 <a href=""
@@ -149,8 +153,8 @@
           </li>
           <li>
             <img src="images/robert_jakis.jpg" alt="Marketing photo" />
-            <p>Robert Jakis</p>
-            <p>Marketing</p>
+            <p class="name-item">Robert Jakis</p>
+            <p class="specialty">Marketing</p>
             <ul>
               <li>
                 <a href=""
@@ -176,8 +180,8 @@
           </li>
           <li>
             <img src="images/martin_doe.jpg" alt="UI Designer photo" />
-            <p>Martin Doe</p>
-            <p>UI Designe</p>
+            <p class="name-item">Martin Doe</p>
+            <p class="specialty">UI Designe</p>
             <ul>
               <li>
                 <a href=""
@@ -203,7 +207,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="customer">
         <h2>Постоянные клиенты</h2>
         <ul>
           <li>
@@ -226,19 +230,22 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h3>Web Studio</h3>
+      <section class="adress-container">
+        <h3>
+          <span class="color-web-bot">Web</span>
+          <span class="color-studio-white">Studio</span>
+        </h3>
         <address>
           <p>г. Киев, пр-т Леси Украинки, 26</p>
           <a href="#">info@example.com</a>
           <a href="tel:+">+38 099 111 11 11</a>
         </address>
-        <section>
+        <section class="social-network">
           <p>присоединяйтесь</p>
           <ul>
             <li>
               <a href="">
-                <img src="images/insta.svg" alt="instagram logo" />
+                <img src="images/instagram_2.svg" alt="instagram logo" />
               </a>
             </li>
             <li>
@@ -256,7 +263,7 @@
             </li>
           </ul>
         </section>
-        <section>
+        <section class="mailing">
           <p>Подпишитесь на рассылку</p>
           <a href=""
             >Подписаться<img src="images/icon_send.svg" alt="icon send"
