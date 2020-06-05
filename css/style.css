@@ -1,5 +1,6 @@
 :root {
-  --address-footer: #2f303a;
+  --footer-color: #2f303a;
+  --title-mailing: #2196f3;
 }
 .color-web {
   font-family: "Raleway";
@@ -7,7 +8,7 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+  color: var(--title-mailing);
 }
 .color-studio {
   font-family: "Raleway";
@@ -18,6 +19,7 @@
   color: #000000;
 }
 nav a {
+  font-family: "roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -26,6 +28,7 @@ nav a {
   color: #212121;
 }
 .banner-title {
+  font-family: "roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -34,15 +37,17 @@ nav a {
   color: #ffffff;
 }
 .banner a {
+  font-family: "roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  background-color: #2196f3;
+  background-color: var(--title-mailing);
   color: #ffffff;
 }
 .advantages h3 {
+  font-family: "roboto";
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
@@ -51,6 +56,7 @@ nav a {
   color: #212121;
 }
 .advantages p {
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -58,6 +64,7 @@ nav a {
   color: #757575;
 }
 .portfolio h2 {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -65,6 +72,7 @@ nav a {
   color: #212121;
 }
 .portfolio h3 {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -74,6 +82,7 @@ nav a {
   background-color: rgba(47, 48, 58, 0.8);
 }
 .team h2 {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -81,6 +90,7 @@ nav a {
   color: #212121;
 }
 .name-item {
+  font-family: "roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -88,6 +98,7 @@ nav a {
   color: #212121;
 }
 .specialty {
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -95,6 +106,7 @@ nav a {
   color: #757575;
 }
 .customer h2 {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -102,12 +114,13 @@ nav a {
   color: #212121;
 }
 .adress-container {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 footer p {
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -121,7 +134,7 @@ footer p {
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
-  color: #2196f3;
+  color: var(--title-mailing);
 }
 .color-studio-white {
   font-family: "Raleway";
@@ -132,6 +145,7 @@ footer p {
   color: #ffffff;
 }
 address p {
+  font-family: "roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -139,6 +153,7 @@ address p {
   color: #ffffff;
 }
 address a {
+  font-family: "roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
@@ -147,6 +162,7 @@ address a {
   color: rgba(255, 255, 255, 0.6);
 }
 .social-network p {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -155,6 +171,7 @@ address a {
   color: #ffffff;
 }
 .mailing p {
+  font-family: "roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -163,8 +180,9 @@ address a {
   color: #ffffff;
 }
 .mailing a {
+  font-family: "roboto";
   text-decoration: none;
-  background-color: #2196f3;
+  background-color: var(--title-mailing);
   color: #ffffff;
   font-style: normal;
   font-weight: 900;
