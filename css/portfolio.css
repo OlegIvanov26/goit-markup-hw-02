@@ -2,6 +2,12 @@
   --footer-color: #2f303a;
   --title-mailing: #2196f3;
 }
+li {
+  list-style-type: none;
+}
+.logo {
+  text-decoration: none;
+}
 .color-web {
   font-family: "Raleway";
   font-style: normal;
@@ -26,6 +32,9 @@ nav a {
   font-size: 14px;
   line-height: 16px;
   color: #212121;
+}
+.number-site {
+  color: #757575;
 }
 .navigation-container a {
   font-family: "roboto";
